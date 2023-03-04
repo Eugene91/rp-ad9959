@@ -31,6 +31,7 @@ Hence to build the program you have to run the commands below in the red pitaya 
 
 ## Usage
 To generate 15 MHz signal at channel 1 run the following command
+
 `LD_LIBRARY_PATH=/opt/redpitaya/lib bin/rp-ad9959 -f 15000000 -c 1`
 
 ## TODO
