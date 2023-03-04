@@ -16,13 +16,17 @@ Hence to build the program you have to run the commands below in the red pitaya 
 - Connect the pins of the DDS board with GPIO pins of Red Pitay board as it is declared in src/pins.c file. 
 
 - Connect to your to your board  over SSH (replace the IP with IP address of your board)
+
  `ssh root@IP` 
  
  - make a clone of the project
+ 
 `git clone git clone https://github.com/Eugene_91/rp-ad9959.git` 
+
 `cd  rp-ad9959`
 
 - build the project
+
 `make`
 
 ## Usage
